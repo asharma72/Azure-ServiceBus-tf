@@ -1,8 +1,6 @@
 # Configure the Azure Provider
 provider "azurerm" {
-  subscription_id = "9975c008-7032-4464-874a-e5439f515e1e"
-  tenant_id       = "a06a7d03-124b-489c-b932-1d12f11dc4e2"
-}
+ }
 resource "azurerm_resource_group" "example" {
   name = "${var.prefix}-resources"
 
